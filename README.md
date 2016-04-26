@@ -13,7 +13,7 @@ Of course you have to know what your client wants to say, understand the project
 
 Yes, yes! There are lots of things that you need to take into consideration! But apart from any methodology and project development process, you need to consider the following general three simple steps for any kind of project to design a database. From the very simple projects to the more huge and complex ones.
 
-1. First you have to ask our client and see what are the project's use cases that she has in mind, what is her main goal, and what data is the most important one at the end.
+1. First we have to ask our client and see what are the project's use cases that she has in mind, what is her main goal, and what data is the most important one at the end.
 
 2. We also need to checkout the use cases from different actors. I mean different people who are going to use our software, such as Manager and Secretary and etc... As different roles in a company, have different use cases.
 
@@ -42,7 +42,7 @@ A *Class* has some *Attributes*. Now an *Object* is an instance of the class and
 
 - **Have as less connections as possible** between tables, it prevents extra complexity.
 
-- **Most of the tables need a *Primary key***. Although other information must distinguish each row from another.
+- **Most of the tables need a *Primary key* **. Although other information must distinguish each row from another.
 
   For example in the 'project' table, each project must have an unique data, otherwise what's the point of having two rows if all of the information of them is the same!  
   So as I have mentioned before, although each row has unique data so we can easily distinguish them from one another, but a if we like to access them in the future, a *Primary key* is still needed, because **any information may change but ID(the *Primary key*) never changes**.
