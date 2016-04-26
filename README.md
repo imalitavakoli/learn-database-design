@@ -42,7 +42,7 @@ A *Class* has some *Attributes*. Now an *Object* is an instance of the class and
 
 - **Have as less connections as possible** between tables, it prevents extra complexity.
 
-- **Most of the tables need a *Primary key* **. Although other information must distinguish each row from another.
+- **a *Primary key* is needed for most of the tables**. Although other information must distinguish each row from another.
 
   For example in the 'project' table, each project must have an unique data, otherwise what's the point of having two rows if all of the information of them is the same!  
   So as I have mentioned before, although each row has unique data so we can easily distinguish them from one another, but a if we like to access them in the future, a *Primary key* is still needed, because **any information may change but ID(the *Primary key*) never changes**.
